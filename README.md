@@ -19,5 +19,15 @@ Example:
 python eval.py --src_lng et --tgt_lng sk --src_path vectors-et.txt --tgt_path vectors-sk.txt --eval_df et-sk.200.csv --k_num 1 --nmax 50000 --output df.csv
 ```
 
+### Annotating the data
+To manually annotate the data, simply run:
+```bash
+python annotate_data.py --src_lng SRC_LNG --tgt_lng TGT_LNG --df_path DF_PATH --output OUTPUT
+```
+Example:
+```bash
+python annotate_data.py --src_lng et --tgt_lng sk --df_path et-sk.csv --output annotated_df.csv
+```
+
 ### Related work
 * [A. Conneau, G. Lample, L. Denoyer, MA. Ranzato, H. Jégou - *Word Translation Without Parallel Data*, 2017](https://arxiv.org/pdf/1710.04087.pdf)
