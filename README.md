@@ -1,6 +1,6 @@
 # Eval_set_size
 
-## Evaluation datasets of various sizes and script for evaluating cross-lingual embedding models
+## Evaluation datasets of various sizes and script for evaluating cross-lingual embedding models on the bilingual lexicon induction task
 
 This repository contains datasets of various sizes (3K, 1.5K, 500, and 200 source words) to evaluate cross-lingual embedding models on three language pairs: Estonian-Slovak, Czech-Slovak, and English-Korean on the bilingual lexicon induction task. Each dataset involves folder "500", where is the 3K source-word-dataset split randomly into 6 datasets containing 500 source words. 
 
