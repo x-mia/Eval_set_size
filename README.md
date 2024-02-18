@@ -29,5 +29,22 @@ Example:
 python annotate_data.py --src_lng et --tgt_lng sk --df_path et-sk.csv --output annotated_df.csv
 ```
 
+### References
+* Please cite [[1]](https://nlp.fi.muni.cz/raslan/2023/paper3.pdf) if you found the resources in this repository useful.
+
+[1] Denisová, M. and Rychlý, P. (2023). [Does Size Matter?: Comparing Evaluation Dataset Size for the Bilingual Lexicon Induction.](https://nlp.fi.muni.cz/raslan/2023/paper3.pdf) In *Proceedings of the Seventeenth Workshop on Recent Advances in Slavonic Natural Languages Processing, RASLAN 2023*, pp. 47-56. Tribun EU. 
+
+```
+@inproceedings{denisova_rychly2023,
+   author = {Denisová, Michaela},
+   title = {Does Size Matter?: Comparing Evaluation Dataset Size for the Bilingual Lexicon Induction},
+   booktitle = {Proceedings of the Seventeenth Workshop on Recent Advances in Slavonic Natural Languages Processing, RASLAN 2023},
+   pages = {47--56},
+   publisher = {Tribun EU},
+   url = {https://nlp.fi.muni.cz/raslan/2023/paper3.pdf},
+   year = {2023}
+}
+```
+
 ### Related work
 * [A. Conneau, G. Lample, L. Denoyer, MA. Ranzato, H. Jégou - *Word Translation Without Parallel Data*, 2017](https://arxiv.org/pdf/1710.04087.pdf)
